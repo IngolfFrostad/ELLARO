@@ -4,177 +4,288 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ellaro</title>
+  <meta
+    name="description"
+    content="Ellaro tilbyr boligkonsepter bygget på over 35 års erfaring. Tidløst design, planløsninger som fungerer, rask byggetid og fleksibel leveranse."
+  />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 antialiased">
 
-<header class="absolute top-0 left-0 w-full z-30">
-  <div class="max-w-7xl mx-auto px-6 md:px-10 py-8 flex justify-between">
-    <img src="logostor.jpg" class="h-24 md:h-32">
-  </div>
-</header>
-
-<section class="relative min-h-screen bg-cover bg-center" style="background-image:url('fasade01.jpg')">
-  <div class="absolute inset-0 bg-black/25"></div>
-
-  <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-10 min-h-screen flex items-center">
-    <div class="max-w-3xl pt-28">
-
-      <p class="text-white/80 uppercase mb-4">Nytt boligkonsept</p>
-
-      <h1 class="text-white text-5xl md:text-6xl font-semibold">
-        Boliger bygget på erfaring
-      </h1>
-
-      <p class="text-white text-xl mt-6">
-        Basert på over 35 års erfaring med boligproduksjon
-      </p>
-
-      <p class="text-white/90 mt-4">
-        Tidløst design, planløsninger som fungerer, og boligtyper levert i mange hundre prosjekter over hele landet.
-      </p>
-
-      <p class="text-white/90 mt-3">
-        Leveres klar for egeninnsats eller 100 % nøkkelferdig.
-      </p>
-
+  <header class="absolute top-0 left-0 w-full z-30">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-8 flex items-center justify-between">
+      <img src="logo.png" alt="Ellaro" class="h-16 md:h-20 w-auto" />
+      <a
+        href="#kontakt"
+        class="hidden md:inline-flex items-center justify-center rounded-full bg-white/90 px-6 py-3 text-sm font-medium text-gray-900 transition hover:bg-white"
+      >
+        Ta kontakt
+      </a>
     </div>
-  </div>
-</section>
+  </header>
 
-<section class="py-20 md:py-28">
-  <div class="max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-12">
+  <section
+    class="relative min-h-screen bg-cover bg-center"
+    style="background-image: url('fasade01.jpg');"
+  >
+    <div class="absolute inset-0 bg-black/20"></div>
 
-    <div>
-      <h2 class="text-4xl font-semibold">
-        Et nytt konsept med solid fundament
-      </h2>
-    </div>
+    <div class="relative z-10 mx-auto flex min-h-screen max-w-7xl items-center px-6 md:px-10">
+      <div class="max-w-3xl pt-28 md:pt-20">
+        <p class="mb-5 text-sm uppercase tracking-[0.2em] text-white/80 md:text-base">
+          Nytt boligkonsept
+        </p>
 
-    <div class="text-gray-700 space-y-6">
-      <p>
-        Boligtypene våre er utviklet gjennom mange år og levert i flere hundre boliger over hele landet.
-      </p>
-      <p>
-        Ingen boliger er helt like. Vi tilpasser til tomt og kundens ønsker, samtidig som vi beholder styrken i et gjennomarbeidet konsept.
-      </p>
-      <p>
-        Resultatet er boliger som kombinerer kvalitet, funksjon og effektiv bygging.
-      </p>
-    </div>
+        <h1 class="text-4xl font-semibold leading-tight text-white md:text-6xl">
+          Boliger bygget på erfaring
+        </h1>
 
-  </div>
-</section>
+        <p class="mt-6 max-w-2xl text-lg leading-relaxed text-white md:text-2xl">
+          Et nytt boligkonsept – basert på over 35 års erfaring med boligproduksjon.
+        </p>
 
-<section class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6 md:px-10">
+        <p class="mt-5 max-w-2xl text-base leading-relaxed text-white/90 md:text-lg">
+          Tidløst design, planløsninger som fungerer, og boligtyper som er levert i mange hundre prosjekter over hele landet.
+        </p>
 
-    <h2 class="text-4xl font-semibold mb-12">
-      Hvem vi jobber med
-    </h2>
+        <p class="mt-4 max-w-2xl text-base leading-relaxed text-white/90 md:text-lg">
+          Boligene kan leveres klar for ønsket egeninnsats, delvis ferdigstilt eller 100 % nøkkelferdig.
+        </p>
 
-    <div class="grid md:grid-cols-3 gap-6">
-
-      <div class="bg-white p-8 rounded-2xl">
-        <h3 class="font-semibold mb-4">Privatkunder</h3>
-        <p>Boliger tilpasset egen tomt – fra egeninnsats til nøkkelferdig.</p>
+        <div class="mt-9 flex flex-col gap-4 sm:flex-row">
+          <a
+            href="#boligtyper"
+            class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 font-medium text-gray-900 transition hover:bg-gray-100"
+          >
+            Se boligtypene
+          </a>
+          <a
+            href="#kontakt"
+            class="inline-flex items-center justify-center rounded-full border border-white/70 px-6 py-3 font-medium text-white transition hover:bg-white/10"
+          >
+            Kontakt oss
+          </a>
+        </div>
       </div>
-
-      <div class="bg-white p-8 rounded-2xl">
-        <h3 class="font-semibold mb-4">Utbyggere</h3>
-        <p>Effektive boligtyper med rask byggetid og forutsigbar gjennomføring.</p>
-      </div>
-
-      <div class="bg-white p-8 rounded-2xl">
-        <h3 class="font-semibold mb-4">Grunneiere</h3>
-        <p>Samarbeid om utvikling av eiendom og boligprosjekter.</p>
-      </div>
-
     </div>
+  </section>
 
-  </div>
-</section>
-
-<section id="boligtyper" class="py-20">
-  <div class="max-w-7xl mx-auto px-6 md:px-10">
-
-    <h2 class="text-4xl font-semibold mb-12">
-      Boligtyper
-    </h2>
-
-    <p class="text-gray-600 mb-10 max-w-2xl">
-      Våre boligtyper er basert på løsninger som er testet gjennom mange år. De kan tilpasses tomt og behov, samtidig som de beholder styrken i et gjennomtenkt konsept.
-    </p>
-
-    <div class="grid md:grid-cols-3 gap-8">
-
+  <section class="py-20 md:py-28">
+    <div class="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:gap-16 md:px-10">
       <div>
-        <img src="ellaro140.jpg" class="w-full h-96 object-cover rounded-xl">
-        <h3 class="text-xl font-semibold mt-4">Ellaro 140</h3>
-        <p class="text-gray-600 mt-2">
-          Effektiv bolig med høy funksjonalitet og smarte løsninger.
+        <p class="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">Om Ellaro</p>
+        <h2 class="text-3xl font-semibold leading-tight md:text-5xl">
+          Et nytt konsept med solid fundament
+        </h2>
+      </div>
+
+      <div class="space-y-6 text-lg leading-relaxed text-gray-700">
+        <p>
+          Ellaro er et nytt boligkonsept utviklet med utgangspunkt i lang erfaring fra boligproduksjon gjennom flere tiår.
+        </p>
+        <p>
+          Boligtypene våre bygger på løsninger som er levert i mange hundre boliger over hele landet. Ingen prosjekter er helt like, men grunnideen er den samme: tidløst design, gode planløsninger og boliger som fungerer godt i hverdagen.
+        </p>
+        <p>
+          Vi tilpasser hver bolig til tomt og kundens ønsker, samtidig som vi beholder styrken i et gjennomarbeidet og velprøvd grunnkonsept. Det gir fleksibilitet uten å miste fordelene ved effektiv bygging og forutsigbar gjennomføring.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-20">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="mb-12 max-w-3xl">
+        <p class="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">Hvem vi jobber med</p>
+        <h2 class="text-3xl font-semibold leading-tight md:text-5xl">
+          Tre tydelige målgrupper
+        </h2>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-3">
+        <article class="rounded-3xl border border-gray-100 bg-white p-8 shadow-sm">
+          <h3 class="mb-4 text-2xl font-semibold">Privatkunder med egen tomt</h3>
+          <p class="leading-relaxed text-gray-700">
+            Vi leverer gjennomtenkte boliger til kunder som ønsker å bygge på egen tomt. Boligen tilpasses tomt og behov, og kan leveres klar for ønsket egeninnsats, delvis ferdigstilt eller 100 % nøkkelferdig.
+          </p>
+        </article>
+
+        <article class="rounded-3xl border border-gray-100 bg-white p-8 shadow-sm">
+          <h3 class="mb-4 text-2xl font-semibold">Utbyggere</h3>
+          <p class="leading-relaxed text-gray-700">
+            Vi samarbeider med utbyggere som ønsker boligtyper med dokumentert bygbarhet, tidløst uttrykk og effektiv gjennomføring. Konseptene gir forutsigbarhet, rask byggetid og løsninger som fungerer i markedet.
+          </p>
+        </article>
+
+        <article class="rounded-3xl border border-gray-100 bg-white p-8 shadow-sm">
+          <h3 class="mb-4 text-2xl font-semibold">Grunneiere og samarbeid</h3>
+          <p class="leading-relaxed text-gray-700">
+            Vi er åpne for dialog med grunneiere og samarbeidspartnere som ønsker å utvikle eiendom. Med erfaring, boligkonsepter og gjennomføringsevne kan vi bidra til å realisere gode prosjekter.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="mb-12 max-w-3xl">
+        <p class="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">Hvorfor Ellaro</p>
+        <h2 class="text-3xl font-semibold leading-tight md:text-5xl">
+          Gjennomtenkt fra start til slutt
+        </h2>
+      </div>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Dokumentert erfaring</h3>
+          <p class="leading-relaxed text-gray-700">
+            Våre boligtyper bygger på mange hundre leverte boliger over hele landet.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Tidløst design</h3>
+          <p class="leading-relaxed text-gray-700">
+            Vi legger vekt på boliger med et rolig, varig og balansert uttrykk.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Planløsninger som fungerer</h3>
+          <p class="leading-relaxed text-gray-700">
+            Boligene er utviklet for hverdagen, med gode rom, flyt og praktiske løsninger.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Tilpasning til tomt og kunde</h3>
+          <p class="leading-relaxed text-gray-700">
+            Ingen boliger er helt like. Vi tilpasser til tomt og ønsker, så lenge grunndesign og størrelse beholdes.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Rask byggetid</h3>
+          <p class="leading-relaxed text-gray-700">
+            Gjennomarbeidede konsepter gir effektiv bygging og trygg fremdrift fra start til slutt.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="mb-3 text-xl font-semibold">Fleksibel leveranse</h3>
+          <p class="leading-relaxed text-gray-700">
+            Boligen kan leveres klar for ønsket egeninnsats, delvis ferdigstilt eller 100 % nøkkelferdig.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="boligtyper" class="bg-gray-50 py-20">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="mb-12 max-w-3xl">
+        <p class="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">Boligtyper</p>
+        <h2 class="mb-6 text-3xl font-semibold leading-tight md:text-5xl">
+          Gjennomarbeidede boligmodeller
+        </h2>
+        <p class="text-lg leading-relaxed text-gray-700">
+          Våre boligtyper kombinerer tidløst design, funksjonelle planløsninger og erfaring fra mange hundre leverte boliger. Modellene kan tilpasses tomt og kunde, samtidig som de beholder styrken i et velprøvd grunnkonsept.
         </p>
       </div>
 
+      <div class="grid gap-8 lg:grid-cols-3">
+        <article class="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
+          <img src="ellaro140.jpg" alt="Ellaro 140" class="h-96 w-full object-cover" />
+          <div class="p-8">
+            <h3 class="mb-4 text-2xl font-semibold">Ellaro 140</h3>
+            <p class="leading-relaxed text-gray-700">
+              En effektiv bolig med smarte løsninger og høy funksjonsverdi. Et godt valg for deg som ønsker en gjennomtenkt bolig med tydelig identitet.
+            </p>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
+          <img src="ellaro160.jpg" alt="Ellaro 160" class="h-96 w-full object-cover" />
+          <div class="p-8">
+            <h3 class="mb-4 text-2xl font-semibold">Ellaro 160</h3>
+            <p class="leading-relaxed text-gray-700">
+              En balansert boligmodell med god romfølelse, fleksible løsninger og et uttrykk som står seg over tid.
+            </p>
+          </div>
+        </article>
+
+        <article class="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
+          <img src="ellaro190.jpg" alt="Ellaro 190" class="h-96 w-full object-cover" />
+          <div class="p-8">
+            <div class="mb-4 flex items-center gap-3">
+              <h3 class="text-2xl font-semibold">Ellaro 190</h3>
+              <span class="inline-flex items-center rounded-full bg-gray-900 px-3 py-1 text-xs uppercase tracking-[0.15em] text-white">
+                Bestselger
+              </span>
+            </div>
+            <p class="leading-relaxed text-gray-700">
+              Vår mest etterspurte boligtype. Romslig, gjennomtenkt og utviklet for moderne behov, med sterke kvaliteter i både planløsning og uttrykk.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28">
+    <div class="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2 md:gap-16 md:px-10">
       <div>
-        <img src="ellaro160.jpg" class="w-full h-96 object-cover rounded-xl">
-        <h3 class="text-xl font-semibold mt-4">Ellaro 160</h3>
-        <p class="text-gray-600 mt-2">
-          Balansert bolig med god romfølelse og fleksible løsninger.
-        </p>
+        <p class="mb-4 text-sm uppercase tracking-[0.2em] text-gray-500">Leveranse</p>
+        <h2 class="text-3xl font-semibold leading-tight md:text-5xl">
+          Fra byggemelding til ferdig bolig
+        </h2>
       </div>
 
-      <div>
-        <img src="ellaro190.jpg" class="w-full h-96 object-cover rounded-xl">
-        <h3 class="text-xl font-semibold mt-4">
-          Ellaro 190 – bestselger
-        </h3>
-        <p class="text-gray-600 mt-2">
-          Vår mest populære modell – romslig, gjennomtenkt og svært godt tilpasset moderne behov.
+      <div class="space-y-6 text-lg leading-relaxed text-gray-700">
+        <p>
+          Vi kan bistå gjennom hele prosessen – fra byggemelding og avklaringer til prosjektering, bygging og ferdigstillelse.
+        </p>
+        <p>
+          Du velger selv hvor mye du ønsker å gjøre. Boligen kan leveres klar for ønsket egeninnsats, delvis ferdigstilt eller som 100 % nøkkelferdig hus.
+        </p>
+        <p>
+          Målet er en forutsigbar prosess, god fremdrift og en løsning som passer både prosjektet og ønsket leveransenivå.
         </p>
       </div>
-
     </div>
+  </section>
 
-  </div>
-</section>
+  <section id="kontakt" class="bg-gray-900 py-20 text-white">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="grid gap-12 md:grid-cols-2">
+        <div>
+          <p class="mb-4 text-sm uppercase tracking-[0.2em] text-white/60">Kontakt</p>
+          <h2 class="mb-6 text-3xl font-semibold leading-tight md:text-5xl">
+            Ta kontakt
+          </h2>
+          <p class="max-w-2xl text-lg leading-relaxed text-white/80">
+            Har du egen tomt, et prosjekt under vurdering, eller ønsker du å vite mer om boligtypene våre, tar vi gjerne en uforpliktende prat.
+          </p>
+          <p class="mt-6 max-w-2xl text-lg leading-relaxed text-white/80">
+            Vi hjelper både privatkunder, utbyggere og grunneiere med å finne riktig løsning – fra første vurdering til ferdig bolig.
+          </p>
+        </div>
 
-<section class="py-20">
-  <div class="max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-12">
-
-    <div>
-      <h2 class="text-4xl font-semibold">
-        Fra byggemelding til ferdig bolig
-      </h2>
+        <div class="space-y-5 text-lg">
+          <div>
+            <p class="mb-1 text-sm uppercase tracking-[0.15em] text-white/50">Telefon</p>
+            <p>905 97 445</p>
+          </div>
+          <div>
+            <p class="mb-1 text-sm uppercase tracking-[0.15em] text-white/50">E-post</p>
+            <p>post@ellaro.no</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="text-gray-700 space-y-6">
-      <p>
-        Vi kan bistå gjennom hele prosessen – fra byggemelding til ferdig bolig.
-      </p>
-      <p>
-        Du velger selv leveransenivå: egeninnsats, delvis ferdig eller nøkkelferdig.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<section id="kontakt" class="py-20 bg-gray-900 text-white">
-  <div class="max-w-7xl mx-auto px-6 md:px-10">
-
-    <h2 class="text-4xl font-semibold mb-6">Ta kontakt</h2>
-
-    <p class="mb-6">
-      Har du en tomt eller et prosjekt? Vi tar gjerne en prat.
-    </p>
-
-    <p class="text-lg">📞 905 97 445</p>
-    <p class="text-lg">✉️ post@ellaro.no</p>
-
-  </div>
-</section>
+  </section>
 
 </body>
 </html>
