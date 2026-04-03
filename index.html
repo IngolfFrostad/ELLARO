@@ -3,84 +3,285 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skifrost</title>
+  <title>Ellaro</title>
+  <meta
+    name="description"
+    content="Ellaro utvikler gjennomtenkte boliger bygget på 35 års erfaring med boligproduksjon. For privatkunder, utbyggere og grunneiere."
+  />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<div style="position:absolute; top:30px; left:30px; z-index:10;">
-  <img src="LogoEllaro.png" alt="Ellaro" style="height:45px;">
-</div>
+<body class="bg-white text-gray-900 antialiased">
 
-  <!-- Hero (ikke endret) -->
-  style="background-image: url('fasade01.jpg');"
-    <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center px-6">
-     <h1 class="text-6xl font-bold text-white mb-4">Ellaro</h1>
-      <p class="text-2xl italic text-gray-200 max-w-2xl">Din partner i industri og bygg</p>
-      <p class="text-lg text-gray-300 mt-4">Én kontakt. Ett ansvar. Ryddig, fleksibelt og effektivt.</p>
+  <header class="absolute top-0 left-0 w-full z-20">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+      <img src="LogoEllaro.png" alt="Ellaro" class="h-10 md:h-12 w-auto" />
+      <a
+        href="#kontakt"
+        class="hidden md:inline-block bg-white/90 text-gray-900 px-5 py-2 rounded-full text-sm font-medium hover:bg-white transition"
+      >
+        Ta kontakt
+      </a>
+    </div>
+  </header>
+
+  <section
+    class="relative min-h-screen bg-cover bg-center"
+    style="background-image: url('fasade01.jpg');"
+  >
+    <div class="absolute inset-0 bg-black/45"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 min-h-screen flex items-center">
+      <div class="max-w-3xl pt-24 md:pt-16">
+        <p class="text-white/80 text-sm md:text-base tracking-[0.2em] uppercase mb-4">
+          Base i Vestfold
+        </p>
+        <h1 class="text-white text-4xl md:text-6xl font-semibold leading-tight">
+          Boliger bygget på 35 års erfaring
+        </h1>
+        <p class="text-white/90 text-lg md:text-2xl mt-6 max-w-2xl leading-relaxed">
+          Ellaro er et nytt konsept bygget på lang erfaring med boligproduksjon.
+          Vi utvikler gjennomtenkte boliger med høy funksjonsverdi, effektiv byggeprosess og rask byggetid.
+        </p>
+        <p class="text-white/80 text-base md:text-lg mt-4">
+          Nytt konsept. Solid erfaring. Mange hundre leverte boliger.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a
+            href="#konsepter"
+            class="inline-flex items-center justify-center bg-white text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition"
+          >
+            Se boligkonsepter
+          </a>
+          <a
+            href="#kontakt"
+            class="inline-flex items-center justify-center border border-white/70 text-white px-6 py-3 rounded-full font-medium hover:bg-white/10 transition"
+          >
+            Kontakt oss
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Introduksjon -->
-  <section id="intro" class="py-16 px-6 bg-gray-50 text-center">
-    <h2 class="text-3xl font-bold mb-6">Din partner i industri og bygg</h2>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed mb-6">
-      Skifrost tilbyr erfarne fagfolk og skreddersydde løsninger innen stål, skipsindustri, offshore og bygg- og anleggsprosjekter.
-      Med norsk kvalitetssikring og tett oppfølging leverer vi tjenester som møter de høyeste krav til presisjon, pålitelighet og effektivitet.
-    </p>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed">
-      Vi samarbeider tett med solide og erfarne litauiske selskaper for å sikre tilgang på kvalifisert arbeidskraft – raskt, effektivt og trygt.
-    </p>
-  </section>
-
-  <!-- Stål og industri -->
-  <section id="industri" class="py-16 px-6 bg-white">
-    <h2 class="text-3xl font-bold text-center mb-6">🔩 Stål og industri</h2>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed mb-6 text-center">
-      Vi leverer kompetanse og produkter til krevende industriprosjekter i Norge og internasjonalt:
-    </p>
-    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-      <div><img src="stål1.png" alt="Sveisearbeid" class="rounded-lg shadow"></div>
-      <div><img src="stål2.png" alt="Industriarbeid" class="rounded-lg shadow"></div>
+  <section class="py-20 md:py-28">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <p class="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">Om Ellaro</p>
+          <h2 class="text-3xl md:text-5xl font-semibold leading-tight">
+            Et nytt konsept bygget på lang erfaring
+          </h2>
+        </div>
+        <div class="text-lg text-gray-700 leading-relaxed space-y-6">
+          <p>
+            Ellaro er etablert med utgangspunkt i over 35 års erfaring fra boligproduksjon.
+            Gjennom denne erfaringen er det utviklet og levert mange hundre boliger, med løsninger
+            som er testet, forbedret og videreutviklet over tid.
+          </p>
+          <p>
+            Resultatet er et nytt konsept bygget på det som faktisk fungerer:
+            gode planløsninger, effektiv bygbarhet, tydelig formspråk og boliger som fungerer godt i hverdagen.
+          </p>
+          <p>
+            Med base i Vestfold retter Ellaro seg mot både privatmarkedet, utbyggere og grunneiere
+            som ønsker boliger og konsepter med kvalitet, forutsigbarhet og rask gjennomføring.
+          </p>
+        </div>
+      </div>
     </div>
-    <ul class="list-disc pl-6 text-lg max-w-3xl mx-auto mt-8">
-      <li><strong>Stål- og metallkonstruksjoner</strong>: Produksjon og montering av konstruksjoner i stål og rustfritt, broer, containere, rør og tanker.</li>
-      <li><strong>Skipsbygging og reparasjon</strong>: Sveising og installasjon av dekkutstyr, luker, dører og fortøyningssystemer.</li>
-      <li><strong>Rør og rørledninger</strong>: Montering av høytrykks- og korrosjonsbestandige rørsystemer.</li>
-      <li><strong>Offshore og vindkraft</strong>: Erfarne sveisere, montører og teknikere tilpasset krevende miljøer og sikkerhetskrav.</li>
-    </ul>
   </section>
 
-  <!-- Bygg og anlegg -->
-  <section id="bygg" class="py-16 px-6 bg-gray-50">
-    <h2 class="text-3xl font-bold text-center mb-6">🏗️ Bygg og anlegg</h2>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed mb-6 text-center">
-      Gjennom samarbeidspartnere fra erfarne litauiske selskaper leverer vi kvalifiserte fagarbeidere til bygg- og anleggsprosjekter i hele Norge – alltid etter norske standarder:
-    </p>
-    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-      <div><img src="6787aaf26beadc281b292e88.jpeg" alt="Byggmontering" class="rounded-lg shadow"></div>
-      <div><img src="156627073_1084475895365128_2171600163335203109_n.jpg" alt="Anleggsarbeid" class="rounded-lg shadow"></div>
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-12">
+        <p class="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">Hva vi tilbyr</p>
+        <h2 class="text-3xl md:text-5xl font-semibold">Løsninger for flere behov</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4">Privatkunder med egen tomt</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Vi tilbyr boligkonsepter for kunder som ønsker å realisere egen bolig på egen tomt.
+            Våre boliger er utviklet med fokus på funksjon, gode rom og løsninger som gir mye verdi i bruk.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4">Utbyggere</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Vi samarbeider med utbyggere som ønsker boliger med gjennomarbeidede planløsninger,
+            effektiv produksjon og kort byggetid. Erfaringen bak konseptene gir trygghet både i
+            prosjektering og gjennomføring.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
+          <h3 class="text-2xl font-semibold mb-4">Grunneiere og tomteeiere</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Vi er åpne for dialog med grunneiere og tomteeiere som ønsker å vurdere utviklingsmuligheter
+            på egen eiendom. Vi ser etter gode samarbeidsmuligheter med et langsiktig og praktisk perspektiv.
+          </p>
+        </div>
+      </div>
     </div>
-    <ul class="list-disc pl-6 text-lg max-w-3xl mx-auto mt-8">
-      <li><strong>Tømrere og snekkere</strong>: Nybygg, rehabilitering og spesialtilpassede innredninger.</li>
-      <li><strong>Flisleggere og murere</strong>: Bad, kjøkken og større kommersielle prosjekter.</li>
-      <li><strong>Malere</strong>: Innvendig og utvendig arbeid med fokus på finish og detaljer.</li>
-      <li><strong>Hjelpearbeidere</strong>: Effektive og tilpasningsdyktige ressurser som styrker prosjektteamet.</li>
-    </ul>
-    <p class="max-w-3xl mx-auto text-lg leading-relaxed mt-6 text-center">
-      Vi håndterer bolig, transport og oppfølging – du får en trygg og smidig bemanningsløsning.
-    </p>
   </section>
 
-  <!-- Kontakt -->
-  <section id="contact" class="py-16 px-6 bg-gray-900 text-white text-center">
-    <h2 class="text-3xl font-bold mb-6">📞 Kontakt oss</h2>
-    <p class="mb-6 text-lg">Ta kontakt med oss i dag – få riktig kompetanse til ditt prosjekt.</p>
-    <a href="mailto:salg@skifrost.no" class="inline-block bg-white text-black font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200 transition">Send e-post</a>
+  <section class="py-20 md:py-28">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-12">
+        <p class="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">Hvorfor Ellaro</p>
+        <h2 class="text-3xl md:text-5xl font-semibold">Bygget på erfaring og gjennomførbarhet</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">35 års erfaring</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Konseptene er bygget på lang erfaring fra utvikling og levering av boliger gjennom flere tiår.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">Mange hundre leverte boliger</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Løsningene bygger på erfaring fra boliger som faktisk er oppført og brukt.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">Gjennomtenkte planløsninger</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Vi legger vekt på funksjon, flyt, romfølelse og god utnyttelse av areal.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">Rask byggetid</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Boligene er utviklet med fokus på effektiv produksjon og praktiske byggeprosesser.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">Trygg gjennomføring</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Erfaring gir bedre beslutninger, færre omveier og større forutsigbarhet gjennom hele prosessen.
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-gray-200 p-7">
+          <h3 class="text-xl font-semibold mb-3">Boliger som fungerer i hverdagen</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Målet er ikke bare et godt uttrykk, men boliger som er gode å bo i over tid.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="py-8 text-center bg-gray-800 text-gray-400">
-    <p>© 2025 Skifrost. Alle rettigheter reservert.</p>
-  </footer>
+  <section id="konsepter" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="max-w-3xl mb-12">
+        <p class="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">Boligkonsepter</p>
+        <h2 class="text-3xl md:text-5xl font-semibold mb-6">Gjennomtenkte modeller med tydelig identitet</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+          Våre boligmodeller er utviklet med utgangspunkt i erfaring, funksjon og bygbarhet.
+          Hver modell er gjennomtenkt for å gi gode rom, effektiv oppføring og et uttrykk som varer over tid.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+        <article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100">
+          <img src="ellaro140.jpg" alt="Ellaro 140" class="w-full h-72 object-cover" />
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">Ellaro 140</h3>
+            <p class="text-gray-700 leading-relaxed">
+              En effektiv og godt disponert bolig med høy funksjonsverdi og smarte løsninger.
+              Et konsept utviklet for å gi mye bolig på en rasjonell og gjennomtenkt måte.
+            </p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100">
+          <img src="ellaro160.jpg" alt="Ellaro 160" class="w-full h-72 object-cover" />
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">Ellaro 160</h3>
+            <p class="text-gray-700 leading-relaxed">
+              En balansert boligmodell med god romfølelse, fleksible løsninger og et tydelig arkitektonisk uttrykk.
+              Et godt valg for familier som ønsker både funksjon og kvalitet.
+            </p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100">
+          <img src="ellaro190.jpg" alt="Ellaro 190" class="w-full h-72 object-cover" />
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">Ellaro 190</h3>
+            <p class="text-gray-700 leading-relaxed">
+              Et romsligere boligkonsept med sterke kvaliteter i planløsning, lys og helhet.
+              Utviklet for dem som ønsker mer plass og en bolig med tydelig identitet.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <p class="text-sm uppercase tracking-[0.2em] text-gray-500 mb-4">Samarbeid</p>
+          <h2 class="text-3xl md:text-5xl font-semibold leading-tight">
+            For privatkunder, utbyggere og grunneiere
+          </h2>
+        </div>
+        <div class="text-lg text-gray-700 leading-relaxed space-y-6">
+          <p>
+            Ellaro ønsker dialog med kunder som har egen tomt, med utbyggere som ønsker effektive
+            og gjennomarbeidede boligkonsepter, og med grunneiere som vil vurdere utvikling av eiendom.
+          </p>
+          <p>
+            Fellesnevneren er ønsket om gode boliger, rask gjennomføring og løsninger bygget på erfaring.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="py-20 bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-start">
+        <div>
+          <p class="text-sm uppercase tracking-[0.2em] text-white/60 mb-4">Kontakt</p>
+          <h2 class="text-3xl md:text-5xl font-semibold leading-tight mb-6">
+            Ta kontakt
+          </h2>
+          <p class="text-white/80 text-lg leading-relaxed max-w-2xl">
+            Enten du har egen tomt, et utviklingsprosjekt eller ønsker å vite mer om våre boligmodeller,
+            tar vi gjerne en prat.
+          </p>
+        </div>
+
+        <div class="space-y-5 text-lg">
+          <div>
+            <p class="text-white/50 text-sm uppercase tracking-[0.15em] mb-1">E-post</p>
+            <p>post@ellaro.no</p>
+          </div>
+          <div>
+            <p class="text-white/50 text-sm uppercase tracking-[0.15em] mb-1">Telefon</p>
+            <p>+47 00 00 00 00</p>
+          </div>
+          <div>
+            <p class="text-white/50 text-sm uppercase tracking-[0.15em] mb-1">Base</p>
+            <p>Vestfold, Norge</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
